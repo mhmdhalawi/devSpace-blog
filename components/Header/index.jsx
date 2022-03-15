@@ -6,7 +6,7 @@ import Logo from '../../public/images/logo.png';
 export default function Header() {
   return (
     <header className='bg-gray-900 text-gray-100 shadow w-full'>
-      <div className='container mx-5 flex flex-wrap p-5 flex-col md:flex-row items-center justify-between'>
+      <div className='container flex flex-wrap p-5 flex-col md:flex-row items-center justify-between'>
         <Link href='/'>
           <a className='flex font-medium items-center md:justify-start mb-4 md:mb-0'>
             <Image src={Logo} alt='logo' width={40} height={40} />
